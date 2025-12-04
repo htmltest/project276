@@ -1,0 +1,42 @@
+.topic__heading.line-height-0 {justify-content:flex-start !important; max-width:612px; margin-left:auto; margin-right:auto}
+.order-final {margin-top:0}
+.order-final-container {margin-top:0}
+.order-final-block:first-child {margin-top:0}
+
+.order-final-block {padding-left:44px}
+.order-final-block-title::before {width:28px; height:28px; background-size:100%}
+.order-final-block-first .order-final-block-title::before {background-size:100%}
+.order-final-block-title {font-size:20px; line-height:1.4em}
+.order-final-block-first .order-final-block-title {font-weight:500}
+.order-final-block-first .order-final-block-title span {font-weight:500}
+.order-final-block-first-payment-btn .btn {background:#6C655C; border-color:#6C655C; height:36px}
+.order-final-block-first-payment-btn .btn:hover {background:rgb(91, 85, 77); border-color:rgb(91, 85, 77); color:#FFFFFF}
+.order-final-block-first-payment-text {font-size:15px; line-height:1.2em; font-weight:300; color:#000000}
+.order-final-block-first-payment-text a {color:#6C655C}
+.order-final-block-first-payment-text a:hover {color:rgb(91, 85, 77)}
+.order-final-block-cart .cart-item-product-preview {min-width:105px; max-width:105px}
+.cart-item-product-props {align-items:flex-start}
+.cart-item-product {width:auto; flex-grow:1}
+.order-final-block-cart .cart-item-product-title {font-weight:500; font-size:15px; line-height:1.4em}
+.order-final-block-cart .cart-item-color::before {content:"Цвет"; display:block; color:#8D8D8D; font-weight:normal; font-size:13px; line-height:1.5em; margin:0 0 6px 0}
+.order-final-block-cart .cart-item-size::before {content:"Размер"; display:block; color:#8D8D8D; font-weight:normal; font-size:13px; line-height:1.5em; margin:0 0 6px 0}
+.order-final-block-cart .cart-item-color .cart-item-select-title {font-size:0; line-height:0; letter-spacing:-1px; color:transparent; padding:0}
+.order-final-block-cart .cart-item-color .cart-item-select-title em {margin:0; width:28px; height:28px; border:1px solid #000000; border-radius:0; position:relative}
+.order-final-block-cart .cart-item-color .cart-item-select-title em::before {content:""; position:absolute; left:0; top:0; right:0; bottom:0; border:2px solid #FFFFFF}
+.order-final-block-cart .cart-item-size .cart-item-select-title {font-size:13px; line-height:1.5em; letter-spacing:0; color:#000000; padding:0; display:flex; align-items:center; justify-content:center; border:1px solid #000000; width:40px; height:28px}
+.order-final-block-cart .cart-item-price {color:#18171F}
+.order-final-data-item {font-size:15px; line-height:1.5em; font-weight:normal; color:#000000}
+.order-final-data-item-title {min-width:140px; max-width:140px; font-weight:300}
+.order-final-block-delivery-price {color:#000000}
+.order-final-block-summ-title {font-size:16px; line-height:1.4em; color:#000000}
+.order-final-block-payment-btn .btn {background:#6C655C; border-color:#6C655C; height:50px; font-size:15px; color:#FFFFFF; font-weight:600}
+.order-final-block-payment-btn .btn:hover {background:rgb(91, 85, 77); border-color:rgb(91, 85, 77); color:#FFFFFF}
+.order-final-block-payment-notice {font-size:13px; line-height:1.5em; color:#8D8D8D}
+
+@media (max-width: 1231px) {
+    .topic__heading.line-height-0 {max-width:none}
+}
+
+@media (max-width: 767px) {
+    .order-final-block {padding-left:0}
+}
